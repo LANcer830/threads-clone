@@ -20,6 +20,7 @@ body {
   --font-size-xs: 12px;
   --font-size-xl: 20px;
   --font-size-smi: 13px;
+  --font-size-4xs: 9px;
   --font-size-3xl: 22px;
   --components-button-large-size: 15px;
   --font-size-sm-5: 13.5px;
@@ -31,7 +32,6 @@ body {
   --font-size-2xs-5: 10.5px;
   --font-size-mid-9: 17.9px;
   --font-size-3xs-7: 9.7px;
-  --font-size-4xs: 9px;
   --font-size-26xl-6: 45.6px;
   --font-size-23xl: 42px;
 
@@ -43,6 +43,7 @@ body {
   --text-primary: rgba(0, 0, 0, 0.87);
   --color-gray-300: rgba(0, 0, 0, 0.23);
   --color-gray-400: rgba(255, 255, 255, 0.2);
+  --color-cornflowerblue-300: #3897f0;
   --color-cornflowerblue-100: #1262af;
   --color-cornflowerblue-200: #1262ae;
   --text-color-alt: #616161;
@@ -61,12 +62,14 @@ body {
   --color-silver: #bdbdbd;
 
   /* Gaps */
+  --gap-5xl: 24px;
   --gap-base: 16px;
   --gap-11xs: 2px;
   --gap-xs: 12px;
   --gap-7xs: 6px;
   --gap-9xs: 4px;
   --gap-5xs: 8px;
+  --gap-3xl: 22px;
   --gap-13xl-9: 32.9px;
   --gap-2xs-5: 10.5px;
   --gap-3xl-4: 22.4px;
@@ -85,6 +88,7 @@ body {
   --padding-29xl: 48px;
   --padding-xs: 12px;
   --padding-base: 16px;
+  --padding-4xs: 9px;
   --padding-5xs: 8px;
   --padding-6xs: 7px;
   --padding-5xl-7: 24.7px;
@@ -95,7 +99,6 @@ body {
   --padding-mini: 15px;
   --padding-3xl: 22px;
   --padding-40xl-8: 59.8px;
-  --padding-4xs: 9px;
   --padding-xs-2: 11.2px;
   --padding-3xs-7: 9.7px;
   --padding-7xs: 6px;
@@ -108,6 +111,8 @@ body {
 
   /* Border radiuses */
   --br-base: 16px;
+  --br-21xl: 40px;
+  --br-29xl: 48px;
   --br-10xs: 3px;
   --br-4xl-2: 23.2px;
   --br-5xs-5: 7.5px;

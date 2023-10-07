@@ -1,0 +1,126 @@
+.avatarIcon {
+  position: relative;
+  width: 41px;
+  height: 39px;
+}
+.thread1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.username {
+  line-height: 19px;
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.dotsChild,
+.min,
+.username {
+  position: relative;
+}
+.min {
+  line-height: 19px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.dotsChild {
+  border-radius: 50%;
+  background-color: var(--text-color);
+  width: 3px;
+  height: 3px;
+}
+.dots {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.headingInfos,
+.rightInfos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.rightInfos {
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  font-size: var(--font-size-xs);
+  color: var(--text-color-alt);
+}
+.headingInfos {
+  align-self: stretch;
+  justify-content: space-between;
+}
+.iveBeenExploring {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-smi);
+  line-height: 19px;
+}
+.info {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.likeIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.actions {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.likes {
+  position: relative;
+  letter-spacing: -0.2px;
+  line-height: 19px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.infosActions,
+.reactions,
+.thread {
+  display: flex;
+  justify-content: flex-start;
+}
+.reactions {
+  flex-direction: row;
+  align-items: center;
+  font-size: var(--font-size-smi);
+  color: var(--text-color-alt1);
+}
+.infosActions,
+.thread {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-xs);
+}
+.thread {
+  align-self: stretch;
+  border-bottom: 1px solid var(--color-dimgray-100);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-base) var(--padding-base)
+    var(--padding-xs);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--text-color);
+  font-family: var(--font-inter);
+}
