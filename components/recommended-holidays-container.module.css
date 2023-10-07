@@ -1,0 +1,104 @@
+.recommendedHolidays {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+}
+.viewAllHolidays {
+  position: relative;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  display: inline-block;
+  width: 124.01px;
+  flex-shrink: 0;
+}
+.arrowRightIcon {
+  position: relative;
+  width: 17.94px;
+  height: 17.94px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.recCardsContainer,
+.recTitle,
+.viewAllHolidaysParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.viewAllHolidaysParent {
+  text-decoration: none;
+  border-radius: 23.17px;
+  background-color: var(--text-color);
+  width: 149.43px;
+  align-items: flex-start;
+  gap: 7.48px;
+  text-align: right;
+  font-size: 13.46px;
+  color: var(--color-cornflowerblue-200);
+}
+.recCardsContainer,
+.recTitle {
+  align-self: stretch;
+  align-items: center;
+}
+.recCardsContainer {
+  align-items: flex-start;
+  margin-left: -16px;
+  margin-right: -16px;
+}
+.viewAllHolidays1 {
+  position: relative;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  display: inline-block;
+  width: 124.01px;
+  flex-shrink: 0;
+}
+.viewAllBottom {
+  border-radius: 23.17px;
+  background-color: var(--text-color);
+  width: 149.43px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 7.48px;
+  text-align: right;
+  font-size: 13.46px;
+  color: var(--color-cornflowerblue-200);
+}
+.recommendedHolidaysContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 17.94px;
+  text-align: left;
+  font-size: 22.43px;
+  color: var(--color-darkslategray-200);
+  font-family: var(--components-button-large);
+}
+@media screen and (max-width: 960px) {
+  .viewAllHolidaysParent {
+    display: none;
+  }
+  .recCardsContainer {
+    margin-left: -16px;
+    margin-right: -16px;
+    flex-wrap: wrap;
+  }
+  .viewAllHolidays1 {
+    width: auto;
+  }
+  .viewAllBottom {
+    display: flex;
+    mrgin-top: 16px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .recommendedHolidays {
+    font-size: var(--font-size-3xl);
+  }
+}
